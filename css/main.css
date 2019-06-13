@@ -1,0 +1,127 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #0b3302;
+}
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width{
+  width: 600px;
+  float: left;
+  height: 300px;
+}
+.third-width{
+  width: 380px;
+  height: 200px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height:800px;
+  background: url('../img/joey-kyber-hostas.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding: 225px 0px 20px 0px;
+  color: #cee461;
+}
+h2 {
+  font-size: 48px;
+}
+
+/***** PORTFOLIO *****/
+.portfolio{
+  height: 1000px;
+  margin: 0px 40px 0px 100px;
+}
+h3 {
+  text-align: center;
+  font-size: 36px;
+  margin: 50px 50px 100px 0px;
+}
+a:link{
+  text-decoration: none;
+}
+h4 {
+  font-size: 24px;
+  margin-top: 0px;
+  font-weight: normal;
+}
+h4 span {
+  font-weight: bold;
+}
+p {
+  font-size: 24px;
+}
+.portfolio img {
+  border: 1px solid #cee461;
+}
+
+/***** ABOUT *****/
+.about{
+  height: 600px;
+  color: white;
+  background: url('../img/gnome.jpg') no-repeat #a6a4a9;
+  background-position: right;
+}
+.about h3{
+  padding-top: 50px;
+  margin-left: 20px
+}
+.about h4{
+  font-weight: bold;
+}
+.about .half-width {
+  margin-left: 100px;
+}
+
+/***** CONTACT *****/
+.connect{
+  height: 400px;
+  text-align: center;
+  background-color: #0b3302;
+  color: white;
+}
+.inside{
+  margin: 0px 100px 0px 100px;
+}
+.connect h3 {
+  margin: 0px;
+  padding: 50px 0px 50px 0px;
+  font-weight: bold;
+}
+.connect h4 {
+  font-weight: bold;
+}
+.connect p {
+  font-size: 20px;
+}
+.connect a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*********************** PORTFOLIO PAGE **************************/
+.portfolio-page{
+  height: 1750px;
+  margin: 0px 40px 0px 100px;
+}
+
+/***** FOOTER *****/
+#footer {
+  clear: both;
+  background-color: #0b3302;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  font-size: 18px;
+}
